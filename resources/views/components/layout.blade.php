@@ -24,7 +24,7 @@ $fullName = (request('name') != '' || request('surname') != '') ? request('name'
                     </path>
                 </svg>
                 <p>Hola, <?= $fullName ?>
-                    . Estàs veient la pàgina realitzada per Ismael Semmar durant el curs de Laravel d'Acacha (INSEBRE)
+                    . Estàs veient la pàgina realitzada per Eric Ortega Durant el curs de Laravel d'Acacha (INSEBRE)
                 </p>
             </div>
             {{ $slot }}
